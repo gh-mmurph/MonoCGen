@@ -1,0 +1,26 @@
+.wrapper {
+  margin:0 auto;
+  width:300px;
+  font-family: sans-serif;
+}
+
+#output, #outputlight, #outputdark{
+  width: 300px;
+  height: 100px;
+  border: solid black 2px;
+  text-align: center;
+}
+
+#gen {
+  width: 300px;
+  font-size: 25px;
+  border: double black 5px;
+}
+
+#gen:hover {
+  opacity: 0.5;
+}
+
+#gen:active {
+  opacity: 1;
+}
